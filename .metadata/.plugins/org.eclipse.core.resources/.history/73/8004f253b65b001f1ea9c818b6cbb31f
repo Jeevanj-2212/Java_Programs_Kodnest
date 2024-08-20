@@ -1,0 +1,10 @@
+package holiday;
+
+public class H6_SumOfAllPrime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

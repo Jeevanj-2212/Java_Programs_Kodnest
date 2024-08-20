@@ -1,0 +1,28 @@
+package holiday;
+
+import java.util.Scanner;
+
+public class H5_RomanNumberConversio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		if(n<=3) {
+		for(int i=1;i<=n;i++) {
+			 
+				System.out.print("I");
+			
+		}
+		}
+			else if(n>=5) {
+				System.out.print("V");
+				for(int j=6;j<=n;j++) {
+					System.out.print("I");
+				}
+			}
+		}
+
+	}
+
+

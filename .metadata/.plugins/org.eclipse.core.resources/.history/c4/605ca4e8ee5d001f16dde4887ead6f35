@@ -1,0 +1,10 @@
+package holiday;
+
+public class H12_SumOfSquaresOfEvenNUmber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

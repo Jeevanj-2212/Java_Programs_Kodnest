@@ -1,0 +1,31 @@
+package holiday;
+
+import java.util.Scanner;
+
+public class H13_PalindromeInRange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int s = sc.nextInt();
+		int e = sc.nextInt();
+		for(int i= s ;i<=e;i++) {
+			int number =i;
+			
+			while(number>0);{
+				int sum=0;
+				int digit = number%10;
+				sum+=digit*10;
+				if(sum==number) {
+					System.out.println(number);
+					
+				}
+				
+			}
+			
+		}
+		
+
+	}
+
+}

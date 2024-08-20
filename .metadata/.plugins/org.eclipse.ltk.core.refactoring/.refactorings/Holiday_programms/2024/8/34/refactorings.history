@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;holiday.H10_ArmStrongCheck&apos; to &apos;H11_ArmStrongCheck&apos;&#x0D;&#x0A;- Original project: &apos;Holiday_programms&apos;&#x0D;&#x0A;- Original element: &apos;holiday.H10_ArmStrongCheck&apos;&#x0D;&#x0A;- Renamed element: &apos;holiday.H11_ArmStrongCheck&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;H10_ArmStrongCheck&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;holiday{H10_ArmStrongCheck.java[H10_ArmStrongCheck" matchStrategy="1" name="H11_ArmStrongCheck" qualified="false" references="true" similarDeclarations="false" stamp="1724046353985" textual="false" version="1.0"/>
+</session>
