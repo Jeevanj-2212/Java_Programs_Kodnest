@@ -12,13 +12,13 @@ public class Calculator {
 		int n1 = sc.nextInt();
 		int n2 = sc.nextInt();
 		switch(opp) {
-		case "addition":Math.add(n1,n2);
+		case "addition":Mat.add(n1,n2);
 		                break;
-		case "subtraction":Math.sub(n1, n2);
+		case "subtraction":Mat.sub(n1, n2);
 		break;
-		case "multiplication":Math.mul(n1, n2);
+		case "multiplication":Mat.mul(n1, n2);
 		break;
-		case "division": Math.div(n1, n2);
+		case "division": Mat.div(n1, n2);
 		break;
 		default:System.out.println("Invalid");
 		
@@ -27,7 +27,7 @@ public class Calculator {
 	}
 
 }
-class Math {
+class Mat{
 	public static void add (int a ,int b){
 		System.out.println("Addition: "+(a+b));
 	}
