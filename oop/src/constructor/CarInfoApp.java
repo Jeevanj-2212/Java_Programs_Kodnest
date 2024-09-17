@@ -24,4 +24,5 @@ class Car {
 		System.out.println("Color: " + color);
 		System.out.println("Price: " + price);
 	}
+	
 }

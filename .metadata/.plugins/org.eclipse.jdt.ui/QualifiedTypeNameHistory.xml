@@ -3,5 +3,8 @@
     <fullyQualifiedTypeName name="interfaces.Demo"/>
     <fullyQualifiedTypeName name="package1.Calculator"/>
     <fullyQualifiedTypeName name="package1.A"/>
+    <fullyQualifiedTypeName name="innerClasses.Outer1.Inner1"/>
+    <fullyQualifiedTypeName name="innerClasses.Outer.Inner"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="miscellaneous.CountingTheNumberOfObjects"/>
 </qualifiedTypeNameHistroy>
