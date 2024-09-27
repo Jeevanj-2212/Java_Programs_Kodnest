@@ -11,7 +11,7 @@ public class ConctructorSuper {
 }
 class Par {
 	Par(){
-		System.out.println("Parent constructor");
+		System.out.println("Parent constructor constructer of parent class");
 	}
 }
 class Chil extends Par {
