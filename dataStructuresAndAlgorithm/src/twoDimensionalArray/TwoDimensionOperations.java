@@ -24,13 +24,16 @@ public class TwoDimensionOperations {
 			}
 		}
 		
-		int arr2[]=new TwoDimensionOperations().findPde(arr1,row);
-		for(int i=0;i<arr2.length;i++) {
-			System.out.print(arr2[i]+" ");
-		}
+		int sumPde=new TwoDimensionOperations().findPde(arr1,row);
+		
+		System.out.println("The sum of pde elements is:"+sumPde);
+		int sumSde=new TwoDimensionOperations().findSde(arr1,row);
+		System.out.println("The sum of Sde elements is:"+sumSde);
+		System.out.println("The absolute difference of SDE and PDE is:"+Math.abs(sumSde-sumPde)); 
+		
 
 	}
-	public  int [] findPde (int arr1[][],int row){
+	public  int  findPde (int arr1[][],int row){
 		int arr[] = new int[row];
 		
 		int sum=0;
@@ -43,9 +46,36 @@ public class TwoDimensionOperations {
 			}
 			System.out.println();
 		}
-		System.out.println("The sum of the PDE array is: " + sum);
+		
 		System.out.println("The Pde of 2D array is");
-		return arr;
+		for(int i=0;i<arr.length;i++) {
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+		System.out.println("-------------------------");
+		return sum;
+	}
+	public  int  findSde (int arr1[][],int row){
+		int arr[] = new int[row];
+		
+		int sum=0;
+		for(int i=0;i<arr1.length;i++) {
+			for(int j=0;j<arr1[i].length;j++) {
+				if(i+j==arr1.length-1) {
+					arr[i]=arr1[i][j];
+					sum+=arr[i];
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("The Sde of 2D array is");
+		for(int i=0;i<arr.length;i++) {
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+		System.out.println("-------------------------");
+		return sum;
 	}
 
 }
