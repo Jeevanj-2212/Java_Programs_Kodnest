@@ -27,7 +27,7 @@ public class FunctionsOfArray {
 		System.out.println("al---->"+al);
 		System.out.println("==================");
 		al.addAll(al2);
-		System.out.println("al---->"+al);
+		System.out.println("al---->Add All"+al);
 		System.out.println("==================");
 		al.addAll(1,al2);
 		System.out.println("al---->"+al);
@@ -37,7 +37,7 @@ public class FunctionsOfArray {
 		al2.clear();
 		System.out.println(al2);
 		System.out.println(al.remove(2));
-		System.out.println("al---->"+al);
+		System.out.println("al---->Deleting"+al);
 		System.out.println("==================");
 		System.out.println(al.lastIndexOf(4));
 		System.out.println(al.set(0,20));

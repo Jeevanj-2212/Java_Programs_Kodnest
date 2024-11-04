@@ -21,9 +21,10 @@ public class FunctionsOfLinkedList {
 		System.out.println("=============");
 		System.out.println(ll.poll());
 		System.out.println(ll);
-		System.out.println("=============");
+		System.out.println("=============Peek===========");
 		System.out.println(ll.peekFirst());
 		System.out.println(ll.peekLast());
+		System.out.println(ll);
 		System.out.println("=============");
 		System.out.println(ll.pollFirst());
 		System.out.println(ll);
