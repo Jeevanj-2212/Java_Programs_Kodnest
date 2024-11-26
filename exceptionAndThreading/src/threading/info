@@ -1,0 +1,8 @@
+2 approaches in multithreading
+
+1--> extending thread
+2--> implementing runnable
+
+
+MultithreadMain 1 and 2 has extend thread approch
+multhithreadMain 3 has implement approach

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="interfaces.Demo"/>
     <fullyQualifiedTypeName name="package1.Calculator"/>
     <fullyQualifiedTypeName name="package1.A"/>
     <fullyQualifiedTypeName name="innerClasses.Outer1.Inner1"/>
@@ -41,6 +40,24 @@
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="threading.Multithread"/>
+    <fullyQualifiedTypeName name="threading.Multithread1"/>
+    <fullyQualifiedTypeName name="threading.Multithread2"/>
+    <fullyQualifiedTypeName name="threading.Multithread3"/>
+    <fullyQualifiedTypeName name="threading.Job1"/>
+    <fullyQualifiedTypeName name="threading.Job2"/>
+    <fullyQualifiedTypeName name="threading.Job3"/>
+    <fullyQualifiedTypeName name="mutithreadingProblems.Activities"/>
+    <fullyQualifiedTypeName name="deamonThread.MsWord"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="synchronisation.Bathroom"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="deadlock.Warrior"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 </qualifiedTypeNameHistroy>
