@@ -23,6 +23,7 @@ public class BufferedReaderAndWriter {
 			String x;
 			while((x=br.readLine()) !=null) {
 				bw.write(x);
+				bw.newLine();
 			}
 			bw.flush();
 			}
